@@ -26,6 +26,30 @@ Old-but-still-relevant names for this same instinct: **Topic-Sensitive PageRank*
 (rank computed per-topic, not globally) and **Hilltop** (links from recognized
 "expert" pages on a topic are worth disproportionately more).
 
+## The five canonical takeaways (from the slide)
+
+1. **The Binary Traffic Rule** — Only secure backlinks from pages that have their
+   own organic traffic. If a page doesn't rank, Google treats the link as low
+   value (Reasonable Surfer Patent: weight follows the links a real user would
+   plausibly click, and dead pages have no clickers).
+2. **Topical Triangulation** — Use content strategy to match related *entities*.
+   Authority is identified by how connected your subject matter is to the core
+   intent of the query.
+3. **Cosine Similarity and Vectors** — If the angle between your site's vector and
+   the link source's vector is too wide, authority isn't passed.
+4. **Quality over Volume** — Vendor guest-post lists are mostly wasted budget.
+   High-relevance link insertions on pages *already ranking for your keywords*
+   produce results significantly faster.
+5. **The Time Decay Factor** — Low-quality links often cause a temporary rise
+   followed by a sharp drop. Only high-relevance links from tight topical
+   clusters give sustainable, long-term growth.
+
+> Small technical caveat so we're not caught out: "the web in three dimensions"
+> is a teaching simplification — embeddings are high-dimensional, and the crawler
+> doesn't literally "stop" at a wide angle. But the operative point is exactly
+> right: **relevance gates how much authority flows**, so directionally treat it
+> as gospel.
+
 ## Where this lands for us
 
 We own ~150 domains. Core business is iGaming. The question on the table:
@@ -138,8 +162,15 @@ earn traffic, *then* graduate them into prime linking sources.
 ## My bottom line
 
 Your instinct is right and the long-tail informational play is the smart unlock —
-it satisfies both the traffic lever and the relevance lever with one mechanism.
-The thing to add to your thinking is the **footprint counterweight**: pursue
-*adjacency and clustering*, not *homogenization*. Align the vectors, vary the
-metadata. Next concrete step is an Ahrefs audit of where the network sits today
-so we're reshaping from data, not guesses — happy to run that when you're back.
+it satisfies both the traffic lever (Binary Traffic Rule) and the relevance lever
+(Cosine Similarity / Topical Triangulation) with one mechanism. The thing to add
+to your thinking is the **footprint counterweight**: pursue *adjacency and
+clustering*, not *homogenization*. Align the vectors, vary the metadata.
+
+The slide's **Time Decay Factor** is the clincher for doing this properly: half-
+measures don't just under-perform, they actively *reverse* — a spike then a slump.
+That means a half-aligned network is arguably worse than no campaign, so this is
+worth doing as a deliberate cluster build rather than a quick interlink pass.
+
+Next concrete step is an Ahrefs audit of where the network sits today so we're
+reshaping from data, not guesses — happy to run that when you're back.
